@@ -1,2 +1,6 @@
 # Music-Played
-Site que apresenta listas de músicas e seus respectivos cantores.
+
+<img src="img/capa.png" />
+
+## About
+Site que apresenta listas de músicas e seus respectivos artistas.
