@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+    background-color:#f7f7f7;
+}
+
 ul {
 	list-style: none;
 }
@@ -25,20 +29,20 @@ header {
 
 /* Background */
 .bg-dark {
-	background-color: rgba(10, 10, 10, 0.884);
+	background-color: #333333;
 }
 
 .bg-light {
-    background-color: rgba(248, 250, 250, 0.877);
+    background-color: #f7f7f7;
 }
 
 /* color */
 .text-light {
-    color: rgba(248, 250, 250, 0.877);
+    color: #f7f7f7;
 }
 
 .text-dark {
-    color: rgba(10, 10, 10, 0.884);
+    color: #333333;
 }
 
 /* FlexBox */
@@ -78,6 +82,14 @@ header {
     padding: 10px 20px;
     flex-direction: row;
     margin: 10px;
+}
+
+.player a:hover {
+    transition: .4s;
+}
+
+.player a h3:hover {
+    color: rgba(255, 0, 0, 0.568);
 }
 
 .img-circle {
